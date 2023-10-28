@@ -1,1 +1,136 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@600&family=Source+Sans+Pro:wght@200;400;600&display=swap');*/
+
+
+.newspaper-container {
+    width: 60%;
+    background: white;
+    margin: 5em auto;
+    border: 1px solid #eeeeee;
+    padding: 1em 2em;
+    border-radius: 1rem;
+        
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 1000;
+    padding: 1px 2em;
+    border-bottom: 1px solid #2828282e;
+    font-size: 2.5em;
+    font-style:normal;
+    font-family: Roboto Slab;
+    
+}
+
+li {
+    display: inline;
+    text-align: start;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin: .5em auto;
+    text-emphasis-color:#2828282e;
+}
+
+main h2 {
+    border-top: 1px solid #2828282e;
+    text-align: start;
+    padding-top: 1rem;
+    padding-bottom: 0em;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+main h5 {
+    color: red;
+    font-size: larger;
+}
+
+
+.more-articles {
+    display: flex;
+    border-top: 1px solid #2828282e;
+    text-align: start;
+    
+    
+}
+
+#img {
+    width:90%;
+    padding-left: .5rem;
+}
+
+section p {
+    text-align: start;
+}
+
+#main-img {
+    width: 100%;
+}
+
+.three-articles {
+    display: flex;
+    border-top: 1px solid #2828282e;
+    text-align: center;
+    align-content:flex-start;
+}
+
+.bottom-section {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.box {
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+}
+
+#bottom-img {
+    width:100%;
+
+}
+
+.h4 {
+    text-align:start;
+}
+
+
+
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+
+
+.socialMedia a {
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.socialMedia img {
+    width: 30px;
+    height: auto;
+}
+
+.address {
+    text-align: start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+}
+
+
+
